@@ -1,0 +1,15 @@
+.tituloProducto {
+    text-decoration: underline;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.agregarCarrito{
+    margin-bottom: 30px;
+}
+
+.imagenProducto{
+    border-radius: 10px;
+}

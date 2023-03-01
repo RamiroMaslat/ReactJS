@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Gloria+Hallelujah&display=swap');
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+    width: 70%;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 3px solid #1a9ba0;
+    margin-bottom: 70px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.descripcion {
+    width: 50%;
+    margin-bottom: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 300;
+}
+
+.imgItem {
+    border-radius: 10px;
+}
+
+.productTitle {
+    text-decoration: underline;
+    font-weight: 700;
+}

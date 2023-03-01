@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Gloria+Hallelujah&display=swap');
+.linksContainer {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: black;
+    font-weight: 700;
+    margin-right: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.links {
+    text-decoration: none;
+    color: #062452;
+}
+
+.links p:hover {
+    transition: 0.5s;
+    background-color: white;
+    padding: 0.6rem;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    font-weight: 650;
+    cursor: pointer;
+
+}
+

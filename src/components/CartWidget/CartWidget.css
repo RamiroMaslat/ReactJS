@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Gloria+Hallelujah&display=swap');
+.cartImg {
+  
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px #062452;
+    
+}
+
+.cartImgContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.cartQuantity{
+    color: #062452;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}

@@ -1,0 +1,65 @@
+*{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.cartContainer {
+    display: flex; 
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;    
+    
+}
+.cartTitle {
+    text-decoration: underline;
+    font-size: 50px;
+}
+.emptyCart {
+    margin: 285px;
+}
+.finalizarCarrito {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.cartProductTitle {
+    text-decoration: underline;
+}
+.finalizarCompra {
+    margin-top: 20px;    
+    height: 45px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 1000;
+    background-color: rgb(1, 170, 91);
+    color: black;
+    border: 2px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.vaciarCarrito {
+    margin-top: 20px;    
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 1000;
+    background-color: rgb(211, 91, 91);
+    color: black;
+    border: 2px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.eliminarProducto {
+    margin-top: 20px;    
+    height: 35px;
+    width: 150px;
+    font-size: 13px;
+    font-weight: 1000;
+    background-color: rgb(211, 91, 91);
+    color: black;
+    border: 2px black solid;
+    border-radius: 6px;
+    cursor: pointer;
+}

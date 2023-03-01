@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Gloria+Hallelujah&display=swap');
+
+.footer {    
+    background-color: #1a9ba0;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.footerLogoSocialMedia {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+.footerLogoSocialMedia:hover{
+    transition: all 0.2s;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #062452;
+    border-radius: 30px;
+}
